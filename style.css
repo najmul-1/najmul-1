@@ -1,0 +1,454 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+#banner{
+width: 100%;
+height: auto; 
+padding-top: 50px;
+}
+
+.banner-container{
+ width: 1320px;   
+ height: 600px;
+ margin: 0 auto;  
+ background-image: url(imge/nnn.png);
+ background-size: cover;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ }
+
+
+ .banner-content{
+width: 1320px; 
+height: 600px; 
+display: flex;
+border-radius: 16px;
+background: rgba(0, 0, 0, 0.5);
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+
+.banner-content h3{ 
+ font-size: 30px;   
+ color: white;
+ padding: 10px;
+}
+
+.banner-content h1{
+ font-size:50px ; 
+ color: white; 
+ font-weight: bold ;
+}
+
+#pop{
+width: 100%; 
+height: auto; 
+margin: 0 auto;  
+margin-top: px;
+justify-content: center;
+text-align: center;
+padding: 15%;
+
+}
+
+
+.pop-rels{
+    width: 1320px;
+}
+
+.pop{
+width: 100%; 
+height: auto;   
+margin: 0 auto;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+
+.pop-rels{
+    margin: 20px;
+}
+
+
+.pop-rels h1{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: red;
+    font-size: 90px;}
+
+
+.pop-rels h4{
+ font-size: 30px;   
+ padding: 10px;
+ color: red;
+}
+
+
+.pop-rels h2{
+ font-size: 30px; 
+ padding: 10px;  
+}
+
+
+.pop-img{
+    width: 100%;
+    height: auto;
+    margin: 25px;
+}
+
+#Welcome-content{
+    width: 1320px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./imge/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+    margin: 0 auto;
+
+}
+
+
+.Welcome-container{
+    width: 1320px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(35, 5, 5, 0.5);
+    border-radius: 16px;
+}
+
+.Welcome-container div{
+ width: 60%;  
+ height: auto;
+ align-items: center; 
+ margin: 0px 80px;
+ justify-content: center;
+
+}
+
+.Welcome-container h1{
+    text-align: left;
+    padding: 15px;
+    font-size: 65px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.Welcome-container p{
+    text-align: left;
+    padding: 15px;
+    color: rgb(222, 216, 216);
+    font-size: 20px;
+
+}
+
+.Welcome-container button{
+    text-transform: uppercase;
+    border: none;
+    background: none;
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 15px;
+
+}
+
+
+.Welcome-container img{
+    width: 340px;
+    margin-left: 27%;
+}
+
+#new-container{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 80px;
+    text-align: center;
+    
+}
+
+.new-park{
+    width: 1320px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+.new-park h1{
+    font-size: 40px;
+    padding: 15px;
+}
+
+
+.new-park span{
+    color: red;
+
+}
+
+
+.new-park .btn{
+    padding: 15px;
+    border-radius: 10px;
+    color:white;
+    background: red;
+    margin: 15px;
+    text-transform: uppercase;
+    border: none;
+    font-weight: 500px;
+}
+
+#new{
+    width: 1320px;
+    height: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    }    
+
+#new div{
+    width: 500px;
+    height: auto;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    margin: 30px;
+}
+
+#new div h3{
+    text-align: left;
+    color: red;
+    font-weight: 500;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+#new div h1{
+    margin: 15px;
+    font-size: 50px;
+    text-align: left;
+    font-weight: 900;
+}
+
+#new div span{
+    color: red;
+    text-align: left;
+    margin: 0px;
+
+}
+
+#new div p{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+    margin: 15px 10px;
+    color: gray;
+}
+
+#gift{
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+   
+
+.gift-container{
+    width: 1320px;
+    height: auto;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.gift-container h3{
+    font-size: 20px;
+    font-weight: 500;
+    
+    text-transform: uppercase;
+    color: red;
+}
+
+.gift-container h1{
+    font-size: 50px;
+    padding: 15px 0px;
+    font-weight: 500;
+}
+
+
+
+.gift-container p{
+    font-size: 20px;
+    padding-bottom: 40px;
+    color: gray;
+}
+
+.gift-img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+#Subscribe{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 100px ;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Subscribe-bur{
+    width: 1320px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.Subscribe-bur{
+    font-size: 40px;
+    padding: 15px;
+}
+
+
+.Subscribe-bur p{
+    font-size: 18px;
+}
+    
+.Subscribe-bur h1{
+    font-size: 45px;
+    padding: 10px;
+
+}
+
+.Subscribe-bur input{
+    padding: 25px;
+    margin-top: 30px;
+    width: 350px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.Subscribe-bur .btn{
+    width: 220px;
+    padding: 25px;
+    border-radius: 0px 50px 50px 0px ;
+    border: none;
+    background: red;
+    color: white;
+    margin-left: -15px;
+    font-size: 19px;
+}
+
+#apple{
+    width: 100%;
+    height: auto;
+    padding: 5rem;
+    margin-top: 100px;
+    background: #070211;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.apple-ios hr{
+    width: 100%;
+    height: auto;
+    background: rgb(39, 31, 31);
+}
+.apple-ios{
+    width: 1320px;
+    height: auto;
+}
+.apple-ios .line{
+    width: 1320px;
+    height: 1px ;
+    background: rgba(255, 255, 255, 0.15);
+}
+.apple-ioss{
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+.apple-ioss h4{
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+    padding: 2px 0px;
+    font-family: 'Inter', sans-serif;
+}
+.apple-ioss img{
+    margin: 5px;
+}
+.apple-icon{
+    width: 100%;
+    height: auto;
+    padding: 2rem 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+.apple-icon img{
+    width: 60px;
+    height: auto;
+    margin: 10px;
+}
+.apple-copyright{
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    display:flex;
+}
+.apple-copyright h4{
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+    padding: 2rem 0px;
+}
+.icon div{
+    display: flex;
+    align-items: center;
+}
